@@ -1,0 +1,16 @@
+{
+  "_doc": "Hand-fixed lines that take precedence over the translation batches. Password puzzles: the event script compares the player's input with fixed kana stored in script_NNN.bin, so the clue must show those exact characters. They are not stored here: {script:NNN:i} is replaced at build time with the i-th kana string found in script_NNN.bin of your own ROM.",
+  "EVENT_MSG_336_0260": "Creating a new future...\n$1c{script:336:0}$c...?",
+  "EVENT_MSG_336_0264": "Hidden crimson mission...\nThe words written in red were...",
+  "EVENT_MSG_336_0266": "The words in red, maybe?\n\"$1cPERFECT$c\" \"$1cKEY$c\"...",
+  "EVENT_MSG_336_0267": "$1c{script:336:1}$c...?\n(Perfect Key)",
+  "EVENT_MSG_336_0277": "ENTER PASSWORD.#\nHINT:\nWHAT NEXT CREATES (IN KANA)",
+  "EVENT_MSG_336_0278": "ENTER PASSWORD.#\nHINT:\n$1cTHE HIDDEN CRIMSON MISSION$c",
+  "EVENT_MSG_563_0053": "But the hottest thing now has\ngotta be \"{script:563:0}\" (taiyaki)!",
+  "EVENT_MSG_563_0054": "They even call this place\n\"City of {script:563:0}\" now...",
+  "EVENT_MSG_575_0056": "ELEVATOR UNLOCK PASSWORD:\n{script:575:1} (OPEN SESAME)#\nFOR THE NO. 7 CONTROL ROOM\nELEVATOR ONLY",
+  "EVENT_MSG_575_0091": "The disarm code is...\n\"{script:575:0}\"...",
+  "EVENT_MSG_575_0092": "The disarm code is...\n\"{script:575:2}\"...",
+  "EVENT_MSG_575_0093": "The disarm code is...\n\"{script:575:3}\"...",
+  "EVENT_MSG_589_0097": "Tch... A trap!"
+}

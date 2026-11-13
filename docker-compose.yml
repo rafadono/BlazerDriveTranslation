@@ -1,0 +1,9 @@
+# Usage: docker compose run --rm translator all
+services:
+  translator:
+    build: .
+    working_dir: /app
+    volumes:
+      - ./rom:/app/rom
+      - ./workspace:/app/workspace
+      - ./translations:/app/translations
